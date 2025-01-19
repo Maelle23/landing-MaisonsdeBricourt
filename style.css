@@ -1,0 +1,33 @@
+/* Importing Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Montserrat&display=swap");
+
+/* Importing all components files */
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+/* General style rules for fonts and colors */
+
+body {
+  font-family: 'Lora', serif;
+  font-size: 15px;
+  margin: 0px;
+}
+p {
+	text-align: center;
+}
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-indent: center;
+}
+li {
+	display: inline;
+  padding-top: 40px;
+}
+a {
+  text-decoration: none;
+}
